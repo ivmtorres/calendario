@@ -1,0 +1,358 @@
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba
+$ ls
+entorno-de-trabajo/
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba
+$ cd entorno-de-trabajo
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo
+$ ls
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo
+$ git clone https://github.com/lab-ml-itba/entorno-de-trabajo.git
+Cloning into 'entorno-de-trabajo'...
+remote: Counting objects: 47, done.
+remote: Compressing objects: 100% (28/28), done.
+remote: Total 47 (delta 17), reused 47 (delta 17), pack-reused 0
+Unpacking objects: 100% (47/47), done.
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo
+$ git config --global user.name "Martin"
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo
+$ git config --global user.email ivmtorres@yahoo.com.ar
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.required=true
+filter.lfs.process=git-lfs filter-process
+credential.helper=manager
+user.name=Martin
+user.email=ivmtorres@yahoo.com.ar
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo
+$ git config --global user.name "ivmtorres"
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.required=true
+filter.lfs.process=git-lfs filter-process
+credential.helper=manager
+user.name=ivmtorres
+user.email=ivmtorres@yahoo.com.ar
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo
+$ cd ..
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba
+$ mkdir Intro-Probabilidad
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba
+$ ls
+entorno-de-trabajo/  Intro-Probabilidad/
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba
+$ cd Intro-Probabilidad
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/Intro-Probabilidad
+$ ls
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/Intro-Probabilidad
+$ git clone https://github.com/lab-ml-itba/Intro-Probabilidad.git
+Cloning into 'Intro-Probabilidad'...
+remote: Counting objects: 1045, done.
+remote: Compressing objects: 100% (1009/1009), done.
+remote: Total 1045 (delta 57), reused 1020 (delta 32), pack-reused 0
+Receiving objects: 100% (1045/1045), 2.93 MiB | 707.00 KiB/s, done.
+Resolving deltas: 100% (57/57), done.
+Checking out files: 100% (975/975), done.
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/Intro-Probabilidad
+$ cd ..
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba
+$ ls
+entorno-de-trabajo/  Intro-Probabilidad/
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba
+$ mkdir Llave
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba
+$ ls
+entorno-de-trabajo/  Intro-Probabilidad/  Llave/
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba
+$ cd Llave
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/Llave
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/lupus/.ssh/id_rsa):
+Created directory '/c/Users/lupus/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/lupus/.ssh/id_rsa.
+Your public key has been saved in /c/Users/lupus/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:Eddi9e0vlVF+aZwcXd1Zf31ebEKlvCVK0t2U4Th/sbk lupus@LAPTOP-LRG6N97F
+The key's randomart image is:
++---[RSA 2048]----+
+|        . .o. .+/|
+|         oo..==X@|
+|        ....ooBX#|
+|         . o .+O@|
+|        S   . .==|
+|               .+|
+|              .E.|
+|               . |
+|                 |
++----[SHA256]-----+
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/Llave
+$ cat C:\Users\lupus\.ssh
+cat: 'C:Userslupus.ssh': No such file or directory
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/Llave
+$ ^C
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/Llave
+$ cat C:\Users\lupus\.ssh\id_rsa.pub
+cat: 'C:Userslupus.sshid_rsa.pub': No such file or directory
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/Llave
+$ cat C:^C_rsa.pub
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/Llave
+$ cat ~/ .ssh/id_rsa.pub
+cat: /c/Users/lupus/: Is a directory
+cat: .ssh/id_rsa.pub: No such file or directory
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/Llave
+$ cat C:\Users\lupus\.ssh\id_rsa.pub^C
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/Llave
+$ cat /c/Users/lupus/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDqS4cwiUTX87q5tLBUk8Pn26pKit3sEv1l95RGm6enM2MzhcTm4VEkJwvnIYLtWVVaGMrUN975BxdWRPwjaBNH8U1Cp/PVNUVHyBzuswLkz4HmGu9s3s09YcWoMvweF6KeWnGH9VY1RWMa9I28YcFk5vS0S61dYurR3B7B7dmiQAlgay6x8NZx5GdK8giw5WxCgDeZbooLfV1mWvn3chmhjEhuEv5O5fajWH3pZFxwE6Et2eEsWXrc3cGxHdUWebVq60BqsghTBRbHhyHBvkOv6+OqVJYK+kSFnHd8zRzUeauVPrNPqaukPVBsW0zhI+1JXP4VbvoOSOq9ZYu8N7Ed lupus@LAPTOP-LRG6N97F
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/Llave
+$ list
+bash: list: command not found
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/Llave
+$ ls
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/Llave
+$ cd ..
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba
+$ cd ,,
+bash: cd: ,,: No such file or directory
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba
+$ cd ..
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c
+$ cd lab-mil-itba
+bash: cd: lab-mil-itba: No such file or directory
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c
+$ ls
+'$RECYCLE.BIN'/             Intel/                  Recovery/
+ BOOTNXT                    lab-ml-itba/            swapfile.sys
+ CursoPython/               OneDriveTemp/           SWSetup/
+'Documents and Settings'@   pagefile.sys           'System Volume Information'/
+ GitUserClave/              PerfLogs/               SYSTEM.SAV/
+ hiberfil.sys              'Program Files'/         Users/
+ hp/                       'Program Files (x86)'/   Windows/
+ inetpub/                   ProgramData/
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c
+$ cd lab-ml-itba
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba
+$ ls
+entorno-de-trabajo/  Intro-Probabilidad/  Llave/
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba
+$ cd entorno-de-trabajo
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo
+$ ls
+entorno-de-trabajo/
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo
+$ cd entorno-de-trabajo
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo/entorno-de-trabajo (master)
+$ git init
+Reinitialized existing Git repository in C:/lab-ml-itba/entorno-de-trabajo/entorno-de-trabajo/.git/
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo/entorno-de-trabajo (master)
+$ cd..
+bash: cd..: command not found
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo/entorno-de-trabajo (master)
+$ cd ..
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo
+$ ls
+entorno-de-trabajo/
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo
+$ git init
+Initialized empty Git repository in C:/lab-ml-itba/entorno-de-trabajo/.git/
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo (master)
+$ touch README2
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo (master)
+$ git add README2
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   README2
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        entorno-de-trabajo/
+
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo (master)
+$ git commit -m "Este es el primer commit desde mi computadora"
+[master (root-commit) bd33851] Este es el primer commit desde mi computadora
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README2
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo (master)
+$ git remote add origin https://github.com/ivmtorres/entorno-de-trabajo.git
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo (master)
+$ git remote add origin git@github.com:entorno-de-trabajo.git
+fatal: remote origin already exists.
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo (master)
+$ git push origin master
+To https://github.com/ivmtorres/entorno-de-trabajo.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/ivmtorres/entorno-de-trabajo.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo (master)
+$ git pull origin master
+warning: no common commits
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/ivmtorres/entorno-de-trabajo
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+fatal: refusing to merge unrelated histories
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo (master)
+$ git push origin master
+To https://github.com/ivmtorres/entorno-de-trabajo.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/ivmtorres/entorno-de-trabajo.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo (master)
+$ git push origin master
+To https://github.com/ivmtorres/entorno-de-trabajo.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/ivmtorres/entorno-de-trabajo.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo (master)
+$ ls
+entorno-de-trabajo/  README2
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo (master)
+$ cd entorno-de-trabajo
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo/entorno-de-trabajo (master)
+$ ls
+'Ejercitación Básica en Python.ipynb'  'Entorno de Trabajo.ipynb'   README.md
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo/entorno-de-trabajo (master)
+$ git push origin master
+remote: Permission to lab-ml-itba/entorno-de-trabajo.git denied to ivmtorres.
+fatal: unable to access 'https://github.com/lab-ml-itba/entorno-de-trabajo.git/': The requested URL returned error: 403
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo/entorno-de-trabajo (master)
+$ git push origin master
+remote: Permission to lab-ml-itba/entorno-de-trabajo.git denied to ivmtorres.
+fatal: unable to access 'https://github.com/lab-ml-itba/entorno-de-trabajo.git/': The requested URL returned error: 403
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo/entorno-de-trabajo (master)
+$ git remote add origin
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo/entorno-de-trabajo (master)
+$ git remote add origin https://github.com/ivmtorres/entorno-de-trabajo.git
+fatal: remote origin already exists.
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo/entorno-de-trabajo (master)
+$ git push origin master
+remote: Permission to lab-ml-itba/entorno-de-trabajo.git denied to ivmtorres.
+fatal: unable to access 'https://github.com/lab-ml-itba/entorno-de-trabajo.git/': The requested URL returned error: 403
+
+lupus@LAPTOP-LRG6N97F MINGW64 /c/lab-ml-itba/entorno-de-trabajo/entorno-de-trabajo (master)
+$
